@@ -47,6 +47,11 @@ public class Banquero {
     public void setSucursal(String sucursal) {
         this.sucursal = sucursal;
     }
+
+    @Override
+    public String toString() {
+        return "Banquero{" + "nombre=" + nombre + ", apellido=" + apellido + ", sucursal=" + sucursal + '}';
+    }
     
     
     
