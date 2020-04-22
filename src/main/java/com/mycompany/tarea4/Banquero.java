@@ -11,4 +11,19 @@ package com.mycompany.tarea4;
  */
 public class Banquero {
     private String nombre, apellido, sucursal;
+    
+    public Banquero(){
+        this.nombre = "";
+        this.apellido = "";
+        this.sucursal = "";
+    }
+
+    public Banquero(String nombre, String apellido, String sucursal) {
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.sucursal = sucursal;
+    }
+    
+    
+    
 }
